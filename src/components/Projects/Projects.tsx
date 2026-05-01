@@ -1,4 +1,4 @@
-import { projectsInfo } from './projectsInfo.js'
+import { projectsInfo } from './projectsInfo.ts'
 
 export function Projects() {
 	return (
