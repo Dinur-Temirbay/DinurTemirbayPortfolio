@@ -1,7 +1,7 @@
 export function About() {
 	return (
-		<div className='#about'>
-			<h1 className='text-center md:text-left text-4xl md:text-5xl text-white font-bold mt-10'>
+		<div id='#about'>
+			<h1 className='text-center md:text-left text-4xl md:text-5xl text-white font-bold mt-10 md:mt-0'>
 				Transforming Your
 				<br />
 				Ideas into <b className='text-cyan-600'>Reality</b>
