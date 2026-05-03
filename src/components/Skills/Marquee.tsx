@@ -1,4 +1,14 @@
-export function Marquee({ reverse = false, skillsList }) {
+import { skillsList as allSkills } from './skillsList'
+
+type Skill = (typeof allSkills)[0]
+
+export function Marquee({
+	reverse = false,
+	skillsList,
+}: {
+	reverse?: boolean
+	skillsList: Skill[]
+}) {
 	return (
 		<div className='overflow-hidden group'>
 			<div
