@@ -3,3 +3,26 @@
 body {
 	background-color: #16171d;
 }
+
+@theme {
+	--animate-marquee: marquee 8s linear infinite;
+	--animate-marquee-reverse: marquee-reverse 8s linear infinite;
+}
+
+@keyframes marquee {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-50%);
+	}
+}
+
+@keyframes marquee-reverse {
+	0% {
+		transform: translateX(-50%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
