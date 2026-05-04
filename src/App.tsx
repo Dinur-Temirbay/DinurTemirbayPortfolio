@@ -1,9 +1,9 @@
-import './App.css'
 import { Header } from './components/Header/Header.tsx'
 import { MyCard } from './components/MyCard/MyCard.tsx'
 import { About } from './components/About/About.tsx'
 import { Projects } from './components/Projects/Projects.tsx'
 import { Skills } from './components/Skills/Skills.tsx'
+import { Experience } from './components/Experience/Experience.tsx'
 
 function App() {
 	return (
@@ -17,6 +17,7 @@ function App() {
 					<About />
 					<Projects />
 					<Skills />
+					<Experience />
 				</section>
 			</main>
 		</>
