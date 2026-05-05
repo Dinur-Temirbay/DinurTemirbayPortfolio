@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 export function MyCard() {
 	return (
 		<section>
-			<div className='bg-gray-800 rounded-lg px-8 py-8 text-center '>
+			<div className='bg-gray-800 rounded-lg p-8 text-center '>
 				<img
 					src='me.jpg'
 					alt='Profile Picture'
@@ -24,7 +24,7 @@ export function MyCard() {
 					</a>
 				</div>
 
-				<button className='bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded cursor-pointer mt-5'>
+				<button className='bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded cursor-pointer mt-10'>
 					Contact Me
 				</button>
 			</div>

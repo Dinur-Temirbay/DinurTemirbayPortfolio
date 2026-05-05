@@ -4,7 +4,7 @@ import { AnimateOnView } from '../Animation/AnimateOnView.tsx'
 export function Projects() {
 	return (
 		<AnimateOnView delay={0.2}>
-			<div id='#projects'>
+			<div id='projects'>
 				<h2 className='text-center md:text-left text-white text-4xl font-bold'>
 					Recent <b className='text-cyan-600'>Projects</b>
 				</h2>

@@ -4,7 +4,7 @@ import { experienceInfo } from './experienceInfo'
 export function Experience() {
 	return (
 		<AnimateOnView delay={0.6}>
-			<div id='#experience'>
+			<div id='experience'>
 				<h2 className='text-center md:text-left text-white text-4xl font-bold'>
 					Exper
 					<b className='text-cyan-600'>ience</b>
@@ -22,7 +22,7 @@ export function Experience() {
 							<span>{job.duration}</span>
 							<p className='text-white font-bold text-lg'>{job.role}</p>
 							<p>{job.company}</p>
-							<p>{job.descr}</p>
+							<p className='mt-3'>{job.descr}</p>
 						</div>
 					</div>
 				))}

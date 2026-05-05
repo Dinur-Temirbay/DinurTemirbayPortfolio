@@ -3,7 +3,7 @@ import { AnimateOnView } from '../Animation/AnimateOnView.tsx'
 export function About() {
 	return (
 		<AnimateOnView>
-			<div id='#about'>
+			<div id='about'>
 				<h1 className='text-center md:text-left text-4xl md:text-5xl text-white font-bold mt-10 md:mt-0'>
 					Transforming Your
 					<br />

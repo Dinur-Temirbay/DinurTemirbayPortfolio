@@ -4,6 +4,7 @@ import { About } from './components/About/About.tsx'
 import { Projects } from './components/Projects/Projects.tsx'
 import { Skills } from './components/Skills/Skills.tsx'
 import { Experience } from './components/Experience/Experience.tsx'
+import { Education } from './components/Education/Education.tsx'
 
 function App() {
 	return (
@@ -13,11 +14,12 @@ function App() {
 				<section className='min-w-[25%] md:sticky self-start top-8'>
 					<MyCard />
 				</section>
-				<section className='flex-1 flex flex-col gap-y-10 overflow-hidden'>
+				<section className='flex-1 flex flex-col gap-y-10 mb-8 overflow-hidden'>
 					<About />
 					<Projects />
 					<Skills />
 					<Experience />
+					<Education />
 				</section>
 			</main>
 		</>
