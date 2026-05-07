@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export function MyCard() {
@@ -24,9 +25,12 @@ export function MyCard() {
 					</a>
 				</div>
 
-				<button className='bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded cursor-pointer mt-10'>
+				<Link
+					to='/contact'
+					className='inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mt-10 transition-colors'
+				>
 					Contact Me
-				</button>
+				</Link>
 			</div>
 		</section>
 	)
