@@ -29,6 +29,7 @@ function App() {
 							element={
 								<>
 									<About /> <Projects /> <Skills /> <Experience /> <Education />
+									<Contact />
 								</>
 							}
 						/>

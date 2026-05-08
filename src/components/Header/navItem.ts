@@ -5,6 +5,8 @@ import {
 	Mail,
 	Wrench,
 	GraduationCap,
+	Sun,
+	Moon,
 } from 'lucide-react'
 
 export const navIcons = [

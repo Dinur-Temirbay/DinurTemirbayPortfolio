@@ -4,9 +4,17 @@ html {
 	scroll-behavior: smooth;
 }
 
-body {
-	background-color: #16171d;
+@layer base {
+	html {
+		@apply bg-[#16171d];
+	}
+
+	html.dark {
+		@apply bg-[#d1d5de];
+	}
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
 	--animate-marquee: marquee 8s linear infinite;

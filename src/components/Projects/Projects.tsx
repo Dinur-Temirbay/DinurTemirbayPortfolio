@@ -4,14 +4,14 @@ import { AnimateOnView } from '../Animation/AnimateOnView.tsx'
 export function Projects() {
 	return (
 		<AnimateOnView delay={0.2}>
-			<h2 className='text-center md:text-left text-white text-4xl font-bold'>
+			<h2 className='text-center md:text-left text-white text-4xl font-bold dark:text-black'>
 				Recent <b className='text-cyan-600'>Projects</b>
 			</h2>
 			<div className='mt-8 flex flex-wrap justify-center md:justify-start gap-5'>
 				{projectsInfo.map((project, index) => (
 					<div
 						key={index}
-						className='w-full md:w-[40%] rounded-lg bg-gray-800 cursor-pointer text-white overflow-hidden'
+						className='w-full md:w-[40%] rounded-lg bg-gray-800 cursor-pointer text-white overflow-hidden dark:text-black dark:bg-gray-200'
 					>
 						<img
 							src={project.img}

@@ -4,33 +4,42 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 export function MyCard() {
 	return (
 		<section>
-			<div className='bg-gray-800 rounded-lg p-8 text-center '>
+			<div className='bg-gray-800 rounded-lg p-8 text-center dark:bg-gray-200'>
 				<img
 					src='me.jpg'
 					alt='Profile Picture'
 					className='w-40 md:w-60 rounded-md mx-auto'
 				/>
-				<h1 className='mt-5 text-2xl md:text-4xl font-bold text-white'>
+				<h1 className='mt-5 text-2xl md:text-4xl font-bold text-white dark:text-black'>
 					Dinur Temirbay
 				</h1>
-				<p className='text-white text-sm md:text-base mt-2'>
+				<p className='text-white text-sm md:text-base mt-2 dark:text-black'>
 					Frontend Developer | Qazaqstan, Almaty
 				</p>
 				<div className='mt-5 flex justify-center gap-5'>
 					<a href='https://github.com/Dinur-Temirbay'>
-						<FaGithub className='text-2xl text-white cursor-pointer transition duration-300 hover:scale-110' />
+						<FaGithub className='text-2xl text-white cursor-pointer transition duration-300 hover:scale-110 dark:text-black' />
 					</a>
 					<a href='https://www.linkedin.com/in/dinur-temirbay-295662274/'>
-						<FaLinkedin className='text-2xl text-white cursor-pointer transition duration-300 hover:scale-110' />
+						<FaLinkedin className='text-2xl text-white cursor-pointer transition duration-300 hover:scale-110 dark:text-black' />
 					</a>
 				</div>
 
-				<Link
-					to='/contact'
-					className='inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mt-10 transition-colors'
-				>
-					Contact Me
-				</Link>
+				<div className='flex justify-center gap-3 mt-10'>
+					<Link
+						to='/contact'
+						className='inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded transition-colors dark:text-black dark:bg-gray-400 dark:hover:bg-gray-500'
+					>
+						Contact Me
+					</Link>
+					<a
+						href='/myResume.pdf'
+						download='Dinur_Temirbay_Resume.pdf'
+						className='inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded transition-colors dark:text-black dark:bg-gray-400 dark:hover:bg-gray-500'
+					>
+						Download CV
+					</a>
+				</div>
 			</div>
 		</section>
 	)

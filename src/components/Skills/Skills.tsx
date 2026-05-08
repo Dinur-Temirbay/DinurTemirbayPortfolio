@@ -5,7 +5,7 @@ import { AnimateOnView } from '../Animation/AnimateOnView.tsx'
 export function Skills() {
 	return (
 		<AnimateOnView delay={0.4}>
-			<h2 className='text-center md:text-left text-white text-4xl font-bold'>
+			<h2 className='text-center md:text-left text-white text-4xl font-bold dark:text-black'>
 				Ski
 				<b className='text-cyan-600'>lls</b>
 			</h2>
