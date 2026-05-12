@@ -1,5 +1,5 @@
-import { projectsInfo } from './projectsInfo.ts'
-import { AnimateOnView } from '../Animation/AnimateOnView.tsx'
+import { projectsInfo } from '@data/projectsInfo.ts'
+import { AnimateOnView } from '@ui/Animation/AnimateOnView.tsx'
 
 export function Projects() {
 	return (

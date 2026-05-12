@@ -1,8 +1,8 @@
 import { Sun, Moon } from 'lucide-react'
-import { navIcons } from './navItem.ts'
+import { navInfo } from '@data/navInfo.ts'
 import { Link } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
-import { useTheme } from '../../context/theme.context.tsx'
+import { useTheme } from '@context/themeContext.tsx'
 
 export function Header() {
 	const { pathname } = useLocation()
@@ -10,7 +10,7 @@ export function Header() {
 
 	return (
 		<nav className='mx-auto sticky md:relative top-5  mt-5 flex items-center justify-center gap-5 md:gap-8 bg-gray-800 rounded-md p-3 w-fit z-50 dark:bg-gray-200'>
-			{navIcons.map(({ icon: Icon, label, href }, index) => (
+			{navInfo.map(({ icon: Icon, label, href }, index) => (
 				<Link key={index} to={href} className='relative group'>
 					<Icon
 						color={
@@ -29,9 +29,9 @@ export function Header() {
 			))}
 			<button onClick={toggleTheme}>
 				{theme === 'dark' ? (
-					<Sun className='text-white hover:rotate-180 transition duration-500 cursor-pointer' />
+					<Sun className='text-black hover:rotate-180 transition duration-500 cursor-pointer' />
 				) : (
-					<Moon className='text-black hover:rotate-180 transition duration-500 cursor-pointer' />
+					<Moon className='text-white hover:rotate-180 transition duration-500 cursor-pointer' />
 				)}
 			</button>
 		</nav>

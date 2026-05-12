@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import { createContext, useContext, useEffect, useState } from 'react'
 
 type Theme = 'light' | 'dark'
@@ -9,7 +10,7 @@ type ThemeContextType = {
 
 const ThemeContext = createContext<ThemeContextType | null>(null)
 
-export function ThemeProvider({ children }: { children: React.ReactNode }) {
+export function ThemeProvider({ children }: { children: ReactNode }) {
 	const [theme, setTheme] = useState<Theme>(() => {
 		return (localStorage.getItem('theme') as Theme) || 'dark'
 	})

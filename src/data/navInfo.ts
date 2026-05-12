@@ -7,7 +7,7 @@ import {
 	GraduationCap,
 } from 'lucide-react'
 
-export const navIcons = [
+export const navInfo = [
 	{ icon: House, label: 'Home', href: '/' },
 	{ icon: Folder, label: 'Projects', href: '/projects' },
 	{ icon: Wrench, label: 'Skills', href: '/skills' },

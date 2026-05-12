@@ -1,5 +1,5 @@
-import { AnimateOnView } from '../Animation/AnimateOnView'
-import { experienceInfo } from './experienceInfo'
+import { AnimateOnView } from '@ui/Animation/AnimateOnView'
+import { experienceInfo } from '@data/experienceInfo'
 
 export function Experience() {
 	return (

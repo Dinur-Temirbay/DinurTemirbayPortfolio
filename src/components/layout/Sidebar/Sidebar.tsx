@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
-export function MyCard() {
+export function Sidebar() {
 	return (
 		<section>
 			<div className='bg-gray-800 rounded-lg p-8 text-center dark:bg-gray-200'>

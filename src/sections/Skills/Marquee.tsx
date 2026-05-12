@@ -1,4 +1,4 @@
-import { skillsList as allSkills } from './skillsList'
+import { skillsList as allSkills } from '@data/skillsList'
 
 type Skill = (typeof allSkills)[0]
 

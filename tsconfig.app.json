@@ -19,7 +19,21 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"erasableSyntaxOnly": true,
-		"noFallthroughCasesInSwitch": true
+		"noFallthroughCasesInSwitch": true,
+
+		/* Path aliases for cleaner imports */
+		"ignoreDeprecations": "6.0",
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"],
+			"@components/*": ["src/components/*"],
+			"@ui/*": ["src/components/ui/*"],
+			"@layout/*": ["src/components/layout/*"],
+			"@sections/*": ["src/sections/*"],
+			"@pages/*": ["src/pages/*"],
+			"@data/*": ["src/data/*"],
+			"@context/*": ["src/context/*"]
+		}
 	},
 	"include": ["src"]
 }

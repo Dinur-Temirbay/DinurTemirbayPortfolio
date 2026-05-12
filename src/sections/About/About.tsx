@@ -1,4 +1,4 @@
-import { AnimateOnView } from '../Animation/AnimateOnView.tsx'
+import { AnimateOnView } from '@ui/Animation/AnimateOnView.tsx'
 
 export function About() {
 	return (
