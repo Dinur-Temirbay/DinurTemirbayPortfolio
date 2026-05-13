@@ -20,7 +20,10 @@ function App() {
 	return (
 		<>
 			<Header />
-			<main className='flex flex-col md:flex-row px-6 md:px-64 mt-10 md:mt-20 md:gap-x-20'>
+			<main
+				className='flex flex-col md:flex-row mt-10 md:mt-20 
+			md:gap-x-20 max-w-6xl mx-auto px-6'
+			>
 				<section
 					className={`min-w-[25%] md:sticky self-start top-8 ${!isHome ? 'hidden md:block' : ''}`}
 				>
