@@ -24,6 +24,7 @@ import {
 	SiGithubcopilot,
 	SiShadcnui,
 	SiPrisma,
+	SiReactquery,
 } from 'react-icons/si'
 import { FaCss3Alt, FaBrain } from 'react-icons/fa'
 import { FaGear } from 'react-icons/fa6'
@@ -48,6 +49,7 @@ export const skillsList: SkillGroup[] = [
 			{ name: 'React Native', icon: SiReact, color: '#61DAFB' },
 			{ name: 'Expo', icon: SiExpo, color: '#FFFFFF' },
 			{ name: 'React Router', icon: SiReactrouter, color: '#F44250' },
+			{ name: 'Tanstack Query', icon: SiReactquery, color: '#FF4154' },
 		],
 	},
 	{

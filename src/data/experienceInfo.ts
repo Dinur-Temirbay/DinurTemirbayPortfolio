@@ -3,6 +3,14 @@ import type { Experience } from '@/types/index.ts'
 export const experienceInfo: Experience[] = [
 	{
 		isCurrentJob: true,
+		role: 'Frontend Developer',
+		company: 'Freelance',
+		duration: 'August 2026 - Present (2 months)',
+		descr:
+			'Developed and maintained responsive web applications using React.js, TypeScript, and Tailwind CSS. Implemented RESTful APIs and integrated third-party services. Collaborated with clients to gather requirements and deliver high-quality solutions.',
+	},
+	{
+		isCurrentJob: true,
 		role: 'Service Desk Engineer',
 		company: 'Energy Solution Center.',
 		duration: 'March 2025 - Present (1 year 5 months)',

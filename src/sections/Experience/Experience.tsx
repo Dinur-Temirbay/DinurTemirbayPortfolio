@@ -21,7 +21,7 @@ export function Experience() {
 							<div key={index} className='flex gap-4 mt-6'>
 								<div className='flex flex-col items-center'>
 									<div
-										className={`w-4 h-4 rounded-full bg-cyan-400 mt-1 shrink-0 ${index === 0 ? `animate-pulse` : ''}`}
+										className={`w-4 h-4 rounded-full bg-cyan-400 mt-1 shrink-0 ${job.isCurrentJob ? `animate-pulse` : ''}`}
 									/>
 									<div className='w-px flex-1 bg-gray-700 mt-1' />
 								</div>
